@@ -1,0 +1,2 @@
+<a *ngIf="type =='link'" [href]="link" [ngClass]="[sizeClassName, textColorClassName, backgroundColorClassName, textSizeClassName]"><i [class]="iconClassName" *ngIf="iconClassName"></i></a>
+<button (click)="onClick()" *ngIf="type =='button'" [ngClass]="[sizeClassName, textColorClassName, backgroundColorClassName, textSizeClassName]"><i [class]="iconClassName" *ngIf="iconClassName"></i></button>
